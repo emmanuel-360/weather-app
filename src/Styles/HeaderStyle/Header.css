@@ -1,0 +1,40 @@
+.photo {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header_subtitle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1200px) {
+  .photo {
+    height: 500px;
+    width: 500px;
+    display: flex;
+  }
+  .header {
+    position: absolute;
+    top: 1%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+  }
+  .header_subtitle {
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    transform: translate(-50%, -700%);
+  }
+}/*# sourceMappingURL=Header.css.map */
